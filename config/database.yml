@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: shaneapp_production
-  username: shaneapp
+  username: ubuntu
   password: <%= ENV['SHANEAPP_DATABASE_PASSWORD'] %>
